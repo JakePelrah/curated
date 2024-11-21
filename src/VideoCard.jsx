@@ -18,7 +18,7 @@ export default function VideoCard({ url }) {
 
   return (
     <div className="col mb-5">
-      <div onClick={() => setPlayerVideo({ url, title })} className="card">
+      <div onClick={() => setPlayerVideo(url)} className="card">
         <img src={imgSrc} className="card-img-top" alt="..." />
         <div className="card-body">
           <h6 className="card-title">{title}</h6>
