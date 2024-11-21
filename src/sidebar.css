@@ -1,0 +1,43 @@
+.sidebar {
+  background-color: #222;
+  height: 100vh;
+}
+
+.accordion-body {
+  padding: 0em;
+}
+
+.accordion-button {
+  background-color: #222;
+  padding: 0em;
+  box-shadow: none !important;
+}
+.accordion-button::after {
+  filter: invert(100%) brightness(97%) contrast(98%);
+}
+.accordion-button:focus {
+  background-color: #222;
+}
+.accordion-button:not(.collapsed) {
+  background-color: #222; /* Color when open */
+}
+
+.accordion-item {
+  border: none;
+  background-color: #222 !important;
+}
+
+.accordion-collapse {
+  background-color: #333 !important;
+}
+
+.list-group-item {
+  background-color: #333 !important;
+  color: white;
+}
+
+.accordion-body {
+  overflow-y: scroll;
+  height: 15em;
+  scrollbar-color: #555 #222;
+}

@@ -1,0 +1,51 @@
+body {
+  background-color: #333;
+  color: white;
+  overflow: hidden;
+}
+
+.card {
+  padding: 0em;
+  background-color: #333;
+  border: none !important;
+  color: white;
+}
+
+.category {
+  color: rgb(255, 255, 255);
+  font-size: 1.25em;
+  font-weight: bold;
+}
+.category img {
+  width: 1.25em;
+}
+
+.react-player {
+  padding: 1em;
+}
+
+hr{
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+  width: 100%;
+}
+
+footer{
+  position: fixed;
+  text-align: center;
+  height: 2.2em;
+  bottom: 0;
+  width: 100%;
+  background-color: #222;
+}
+
+.recommended{
+  height: 20em;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  scrollbar-color: #888888 #333;
+}
